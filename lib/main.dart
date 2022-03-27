@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:timetable/homepage.dart';
+import 'package:timetable/splashpage.dart';
 import 'package:timetable/mainpage.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: "TimeTable",
       initialRoute: '/',
       routes: {
-        '/' : (BuildContext context) => Home(),
+        '/' : (BuildContext context) => Splash(),
         '/main' : (BuildContext context) => MainPage()
       },
     );
