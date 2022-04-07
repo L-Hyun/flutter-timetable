@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:timetable/splashpage.dart';
-import 'package:timetable/mainpage.dart';
+import 'package:timetable/screen/splashpage.dart';
+import 'package:timetable/screen/mainpage.dart';
 
 void main() {
   runApp(const MyApp());
